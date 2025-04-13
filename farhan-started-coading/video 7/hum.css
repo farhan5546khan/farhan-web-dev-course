@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(127, 90, 237);
+    font-family: Arial, sans-serif; /* Makes text more readable */
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse; /* Prevents double borders */
+    width: 100%; /* Makes it full width */
+    margin-top: 20px;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 10px; /* Adds spacing inside cells */
+    text-align: center;
+}
+
+/* Dropdown Styling */
+select {
+    border: 2px solid blue; /* Set border width */
+    padding: 5px;
+    font-size: 16px;
+}
+
+option {
+    color: rgb(21, 24, 237);
+    font-size: 14px;
+}
+
+/* Textarea Styling */
+textarea {
+    background-color: rgb(236, 239, 248);
+    padding: 5px;
+    border-radius: 5px; /* Adds rounded corners */
+    width: 100%; /* Makes it responsive */
+}
+
+/* Form Input Fields */
+input {
+    padding: 4px;
+    border-radius: 5px; /* Adds soft edges */
+    border: 1px solid black

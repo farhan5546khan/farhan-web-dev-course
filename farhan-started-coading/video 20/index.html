@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exersise first of css</title>
+
+    <!-- write html anda css code to style a paragraph inside a div which contains 5 other paragraphs. the first paragraph must have background color yellow and text color red , the other paragraphs must have background color blue and text color white , do not change anything in the html code  -->
+    <style>
+      p:first-child{
+        color: red;
+        background-color: yellow;
+      }
+      div>p{
+        color: white;
+        background-color: blue;
+      }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nulla, alias repudiandae non dolorem molestiae
+            incidunt velit quaerat odit mollitia quis placeat ipsum.</p>
+
+        <p> this is a pragraph </p>
+        <p>this is also a paragraph </p>
+    </div>
+
+    <div>
+
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque vero labore necessitatibus obcaecati
+            accusamus laudantium totam pariatur harum quasi ipsam suscipit, nesciunt dignissimos, architecto impedit
+            quidem tempore aliquam facilis cum nemo dolores excepturi id.
+        </p>
+
+        <p> this is a pragraph </p>
+        <p>this is also a paragraph </p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>understanding about the cascade algorithm </title>
+
+    <style>
+        /* the spacificity of this selector is 1 */
+        h1 {
+            color: aqua
+        }
+
+        /* the spacificity of this selector is 10 */
+        .yellow {
+            color: yellow 
+        }
+
+        /* the spacificity of this selector is 10 */
+        .cred {
+            color: red;
+        }
+
+        /* the spacificity of this selector is 10 */
+        .cpurple {
+            color: purple;
+
+        }
+
+         /* this is a exaple of attribute selector . the simplificity od this selector is 10 */
+        
+         [data-x="a"] {
+            color: rgb(16, 58, 118) 
+        }
+
+
+        /* the spacificity of this selector is 100 */
+        #pakode {
+            color: red;
+        }
+
+            /* spacificity of inline css is 1000 */
+        
+
+       
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 data-x="a" id="pakode" class="yellow cred cpurple">
+
+            css specifity
+        </h1>
+    </div>
+</body>
+
+</html>
